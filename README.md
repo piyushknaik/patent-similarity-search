@@ -8,40 +8,28 @@ A Python application for exploring and analyzing patent data using Neo4j graph d
 - Neo4j Database
 - Virtual Environment (recommended)
 
-## Installation
+## Quick Start
 
-1. Clone the repository:
 ```bash
+# Clone and enter the repository
 git clone https://github.com/piyushknaik/patent-similarity-search.git
 cd patent-similarity-search
-```
 
-2. Create and activate a virtual environment:
-```bash
-# Windows
+# Set up Python environment
 python -m venv .venv
-.\.venv\Scripts\activate
+.\.venv\Scripts\activate  # Windows
+# source .venv/bin/activate  # Linux/macOS
 
-# Linux/macOS
-python -m venv .venv
-source .venv/bin/activate
-```
-
-3. Install dependencies:
-```bash
+# Install dependencies
 pip install -r requirements.txt
-```
 
-4. Set up environment variables:
-```bash
-# Copy the example environment file
+# Configure Neo4j connection
 cp .env.example .env
-
-# Edit .env file with your Neo4j credentials
-NEO4J_URI=neo4j+s://<your-instance-id>.databases.neo4j.io
-NEO4J_USERNAME=neo4j
-NEO4J_PASSWORD=your-password-here
-NEO4J_DATABASE=neo4j
+# Edit .env with your Neo4j credentials:
+# NEO4J_URI=neo4j+s://<your-instance-id>.databases.neo4j.io
+# NEO4J_USERNAME=neo4j
+# NEO4J_PASSWORD=your-password
+# NEO4J_DATABASE=neo4j
 ```
 
 ## Running the Application
