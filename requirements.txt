@@ -1,0 +1,9 @@
+neo4j==5.14.1
+python-dotenv==1.0.0
+pydantic==2.4.2
+pydantic-settings==2.0.3
+langchain==0.0.350
+langchain-community==0.0.13
+python-jose==3.3.0
+typing-extensions==4.8.0
+numpy==1.24.3
